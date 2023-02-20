@@ -7,71 +7,76 @@
     <title>Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="/CSS/homepage.css">
+    <link rel="stylesheet" href="/Homepage/CSS/homepage.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
 
 </head>
 
 <body>
-    <header class="header">
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="row row1">
-                        <div class="col-5 displayf">
 
-                            <!-- <div>
-                                <img src="/IMAGES/logo.png" alt="">
-                            </div> -->
-                            <!-- <div class="m-4 dada">
-                                 <div class="dropdown">
-                                    <button class="dropdown-toggle" data-bs-toggle="dropdown">Explore
-                                        <img src="/IMAGES/drop-down.png" alt="">
-                                    </button>
+    <div class="container">
 
-                                    <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item">Topic1</a>
-                                        <a href="#" class="dropdown-item">Topic2</a>
-                                    </div>
-                                </div> 
-                            </div> -->
-                            <div class="me-4">
-                                <a href="" style="text-decoration: none; color: #333333;">Story</a>
-                            </div>
-                            <!-- <div>
-                                <a href="" style="text-decoration: none; color: #333333;">News</a>
-                            </div> -->
-                            <div class=" ">
-                                <div class="dropdown">
-                                    <button class="dropdown-toggle" data-bs-toggle="dropdown">Policy
-                                        <img src="/IMAGES/drop-down.png" alt="">
-                                    </button>
+        <header class="header">
 
-                                    <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item">Site Policy</a>
-                                        <a href="#" class="dropdown-item">Company Policy</a>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="row row1">
+                            <div class="col-5 displayf">
+
+                                <!-- <div>
+                                    <img src="/Homepage/Images/logo.png" alt="">
+                                </div> -->
+                                <!-- <div class="m-4 dada">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle" data-bs-toggle="dropdown">Explore
+                                            <img src="/IMAGES/drop-down.png" alt="">
+                                        </button>
+    
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">Topic1</a>
+                                            <a href="#" class="dropdown-item">Topic2</a>
+                                        </div>
+                                    </div> 
+                                </div> -->
+                                <div class="me-4">
+                                    <a href="" style="text-decoration: none; color: #333333;">Story</a>
+                                </div>
+                                <!-- <div>
+                                    <a href="" style="text-decoration: none; color: #333333;">News</a>
+                                </div> -->
+                                <div class=" ">
+                                    <div class="dropdown">
+                                        <button class="dropdown-toggle" data-bs-toggle="dropdown">Policy
+                                            <img src="/Homepage/IMAGES/drop-down.png" alt="">
+                                        </button>
+
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">Site Policy</a>
+                                            <a href="#" class="dropdown-item">Company Policy</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-3">
-                            <div class=" d-flex">
-                                <!-- <button class="dropdown-toggle " data-bs-toggle="dropdown">
-                                    <img src="/IMAGES/bell.png" alt="">
-                                </button> -->
-                                <div class="dropdown">
-                                    <button class="dropdown-toggle Profile" data-bs-toggle="dropdown">
-                                        <img src="/IMAGES/user-img.png" id="user">
-                                        <span>Evan Donohue</span>
-                                        <img src="/IMAGES/drop-down.png " class="ic-down">
-                                    </button>
+                            <div class="col-3">
+                                <div class=" d-flex">
+                                    <!-- <button class="dropdown-toggle " data-bs-toggle="dropdown">
+                                        <img src="/IMAGES/bell.png" alt="">
+                                    </button> -->
+                                    <div class="dropdown">
+                                        <button class="dropdown-toggle Profile" data-bs-toggle="dropdown">
+                                            <img src="/Homepage/IMAGES/user-img.png" id="user">
+                                            <span>Evan Donohue</span>
+                                            <img src="/Homepage/IMAGES/drop-down.png " class="ic-down">
+                                        </button>
 
-                                    <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item">My Profile</a>
-                                        <a href="#" class="dropdown-item">.</a>
-                                        <a href="#" class="dropdown-item">Log out</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">My Profile</a>
+                                            <a href="#" class="dropdown-item">.</a>
+                                            <a href="#" class="dropdown-item">Log out</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -79,38 +84,40 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
+        <hr>
 
 
-    <div class="container">
         <div class="row">
 
             <div class="col ">
                 <div class="row ">
                     <div class="col-6 me-auto">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        <div class="search-bar " style="margin-top: 5px;">
+                            <img src="/Homepage/IMAGES/search.png" id="searchimg" alt="">
+                            <input class="form-control me-2" id="search" type="search" placeholder="Search"
+                                aria-label="Search">
+                        </div>
+
+                        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
                     </div>
                     <div class="col-6 ">
 
-                        <nav class="navbar navbar-expand-lg ">
+                        <nav class="navbar  navbar-expand-lg " style="padding: 0; box-shadow: none;">
 
                             <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto  justify-content-between "  style="width: 100%;">
+                            <div class="collapse navbar-collapse pe-4" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto  justify-content-between " style="width: 100%;">
 
                                     <li class="nav-item dropdown ">
                                         <a class="nav-link border-end" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
                                             Country
-                                            <img class="ms-4" src="/IMAGES/drop-down.png" alt="dropdown-logo">
+                                            <img class="ms-4" src="/Homepage/Images/drop-down.png" alt="dropdown-logo">
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">India</a></li>
@@ -126,7 +133,7 @@
                                         <a class="nav-link border-end" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
                                             City
-                                            <img src="/IMAGES/drop-down.png" class="ms-4" alt="dropdown-logo">
+                                            <img src="/Homepage/Images/drop-down.png" class="ms-4" alt="dropdown-logo">
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Ahmedabad</a></li>
@@ -142,7 +149,7 @@
                                         <a class="nav-link border-end" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
                                             Theme
-                                            <img src="/IMAGES/drop-down.png" class="ms-4" alt="dropdown-logo">
+                                            <img src="/Homepage/Images/drop-down.png" class="ms-4" alt="dropdown-logo">
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -158,7 +165,7 @@
                                         <a class="nav-link border-end" href="#" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
                                             Skills
-                                            <img src="/IMAGES/drop-down.png" class="ms-4" alt="dropdown-logo">
+                                            <img src="/Homepage/Images/drop-down.png" class="ms-4" alt="dropdown-logo">
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -178,37 +185,85 @@
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="left">
+        <hr>
+        <div class="row d-flex mb-3">
+            <div class="col">
                 <h3>Explore 72 missions</h3>
 
             </div>
-            <!-- <div class="right">
-
-        </div> -->
-            <div class="row">
+            <div class="col d-flex justify-content-end pe-5 ">
+                <select class="me-4" name="Sort by" id="">
+                    <option value="">Sort by</option>
+                    <option value="">lkjslka</option>
+                </select>
+                <img src="/Homepage/IMAGES/grid.png" class="me-4" alt="">
+                <img src="/Homepage/IMAGES/list.png" alt="">
+            </div>
+            <hr>
+            <div class="row ">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="/IMAGES/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
-                            class="card-img-top" alt="...">
+                        <div class="location">
+                            <img src="/Homepage/IMAGES/pin1.png" class="image2" alt="location">&nbsp Toronto
+                        </div>
+                        <img src="/Homepage/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                            class="card-img-top image1 " alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Environment</div>
+
+
                         <div class="card-body">
                             <h5 class="card-title">Grow Trees- On the path to environment sustainability</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in fugit
-                                aperiam eaque similique. Commodi aliquam quas fugit maiores exercitationem.</p>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, magnam?
+                            </p>
                             <div class="d-flex">
                                 <span>Tree Canada</span>
                                 <div class="ms-auto">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/images/star.png" alt="">
-                                    <img src="/images/star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
                                 </div>
                             </div>
-                            <label class="border border-dark rounded-pill" for="">From 10/01/2019 untill
-                                25/02/1019</label>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">From 10/01/2019 untill
+                                    25/02/1019</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-md-3 ">
+                                            <img src="/Homepage/IMAGES/Seats-left.png" alt="Seats left">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>10</p>
+                                            <p class="text-muted pfontsize">seats left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/deadline.png" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted pfontsize">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+
 
                         </div>
                     </div>
@@ -216,115 +271,485 @@
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="/IMAGES/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                        <img src="/Homepage/Images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
                             class="card-img-top" alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Children</div>
                         <div class="card-body">
-                            <h5 class="card-title">Grow Trees- On the path to environment sustainability</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in fugit
-                                aperiam eaque similique. Commodi aliquam quas fugit maiores exercitationem.</p>
+                            <h5 class="card-title">Education Supplies for Every Pair of Shoes Sold</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+                                vel.</p>
                             <div class="d-flex">
-                                <span>Tree Canada</span>
+                                <span>Australian Paradise</span>
                                 <div class="ms-auto">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/images/star.png" alt="">
-                                    <img src="/images/star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
                                 </div>
                             </div>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">From 10/01/2019 untill
+                                    25/02/1019</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3 ">
+                                            <img src="/Homepage/IMAGES/Already-volunteered.png"
+                                                alt="Already-volunteered">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>250</p>
+                                            <p class="text-muted pfontsize ">Already Volunteered</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/deadline.png" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted pfontsize">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="/IMAGES/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
-                            class="card-img-top" alt="...">
+                        <img src="/Homepage/Images/Nourish-the-Children-in--African-country-1.png" class="card-img-top"
+                            alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Nutrition</div>
                         <div class="card-body">
-                            <h5 class="card-title">Grow Trees- On the path to environment sustainability</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in fugit
-                                aperiam eaque similique. Commodi aliquam quas fugit maiores exercitationem.</p>
+                            <h5 class="card-title">Nourish the Children in African <br>country</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, veniam?
+                            </p>
                             <div class="d-flex">
-                                <span>Tree Canada</span>
+                                <span>The Hunger</span>
                                 <div class="ms-auto">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/images/star.png" alt="">
-                                    <img src="/images/star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
                                 </div>
                             </div>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">Ongoing Opportunity</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3 ">
+                                            <img src="/Homepage/IMAGES/Seats-left.png" alt="Seats left">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>10</p>
+                                            <p class="text-muted">seats left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/deadline.png" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="/IMAGES/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                        <img src="/Homepage/Images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
                             class="card-img-top" alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Environment</div>
                         <div class="card-body">
-                            <h5 class="card-title">Grow Trees- On the path to environment sustainability</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in fugit
-                                aperiam eaque similique. Commodi aliquam quas fugit maiores exercitationem.</p>
+                            <h5 class="card-title">CSR initiative stands for Coffee and Farmer Equity</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                                laborum.</p>
                             <div class="d-flex">
-                                <span>Tree Canada</span>
+                                <span>CSE Network</span>
                                 <div class="ms-auto">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/images/star.png" alt="">
-                                    <img src="/images/star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
                                 </div>
                             </div>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">Ongoing Opportunity</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3 ">
+                                            <img src="/Homepage/IMAGES/Seats-left.png" alt="Seats left">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>250</p>
+                                            <p class="text-muted pfontsize">Already Volunteered</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="/IMAGES/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
-                            class="card-img-top" alt="...">
+                        <img src="/Homepage/Images/Animal-welfare-&-save-birds-campaign-1.png" class="card-img-top"
+                            alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Animals</div>
                         <div class="card-body">
-                            <h5 class="card-title">Grow Trees- On the path to environment sustainability</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in fugit
-                                aperiam eaque similique. Commodi aliquam quas fugit maiores exercitationem.</p>
+                            <h5 class="card-title">Animal Welfare & Save birds campaign</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, harum?
+                            </p>
                             <div class="d-flex">
-                                <span>Tree Canada</span>
+                                <span>JR Foundation</span>
                                 <div class="ms-auto">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/images/star.png" alt="">
-                                    <img src="/images/star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
                                 </div>
                             </div>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">Plant 10000 trees</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3 ">
+                                            <img src="/Homepage/IMAGES/Seats-left.png" alt="Seats left">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>10</p>
+                                            <p class="text-muted">seats left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="/IMAGES/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                        <img src="/Homepage/Images/Plantation-and-Afforestation-programme-1.png" class="card-img-top"
+                            alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Health</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Plantation and Afforestation Programme</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
+                                officia?</p>
+                            <div class="d-flex">
+                                <span>Amaze doctors</span>
+                                <div class="ms-auto">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                </div>
+                            </div>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">Plant 10000 trees</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3 ">
+                                            <img src="/Homepage/IMAGES/Seats-left.png" alt="Seats left">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>10</p>
+                                            <p class="text-muted">seats left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/deadline.png" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/Homepage/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
                             class="card-img-top" alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Environment</div>
                         <div class="card-body">
                             <h5 class="card-title">Grow Trees- On the path to environment sustainability</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in fugit
-                                aperiam eaque similique. Commodi aliquam quas fugit maiores exercitationem.</p>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, magnam?
+                            </p>
                             <div class="d-flex">
                                 <span>Tree Canada</span>
                                 <div class="ms-auto">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/IMAGES/selected-star.png" alt="">
-                                    <img src="/images/star.png" alt="">
-                                    <img src="/images/star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
                                 </div>
                             </div>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">From 10/01/2019 untill
+                                    25/02/1019</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-md-3 ">
+                                            <img src="/Homepage/IMAGES/Seats-left.png" alt="Seats left">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>10</p>
+                                            <p class="text-muted pfontsize">seats left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/deadline.png" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted pfontsize">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/Homepage/Images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
+                            class="card-img-top" alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Children</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Education Supplies for Every Pair of Shoes Sold</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+                                vel.</p>
+                            <div class="d-flex">
+                                <span>Australian Paradise</span>
+                                <div class="ms-auto">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                </div>
+                            </div>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">From 10/01/2019 untill
+                                    25/02/1019</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3 ">
+                                            <img src="/Homepage/IMAGES/Already-volunteered.png"
+                                                alt="Already-volunteered">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>250</p>
+                                            <p class="text-muted pfontsize ">Already Volunteered</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/deadline.png" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted pfontsize">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/Homepage/Images/Nourish-the-Children-in--African-country-1.png" class="card-img-top"
+                            alt="...">
+                        <div class="positon-relative btn-rounded mx-auto px-3"
+                            style="margin-top:-13px; background-color: white;">Nutrition</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nourish the Children in African country</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, veniam?
+                            </p>
+                            <div class="d-flex">
+                                <span>The Hunger</span>
+                                <div class="ms-auto">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/selected-star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                    <img src="/Homepage/Images/star.png" alt="">
+                                </div>
+                            </div>
+                            <div class="labelline mt-3 mb-3">
+                                <label class="border border-dark rounded-pill px-3" for="">Ongoing Opportunity</label>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3 ">
+                                            <img src="/Homepage/IMAGES/Seats-left.png" alt="Seats left">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>10</p>
+                                            <p class="text-muted">seats left</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="/homepage/IMAGES/deadline.png" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p>09/01/2019</p>
+                                            <p class="text-muted">Deadline</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="applybtn text-center">
+                                <button class="m-auto">
+                                    <a href="#" class="btn m-auto text-warning border border-warning rounded-pill">Apply
+                                        <img src="/homepage/IMAGES/right-arrow.png" alt=""></a>
+                                </button>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -335,10 +760,12 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
             crossorigin="anonymous"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
